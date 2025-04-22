@@ -1,0 +1,15 @@
+Execute the following command to perform a direct migration between source and target Salesforce orgs:
+
+sf sfdmu run --sourceusername developer1 --targetusername developer2
+
+Use this command to import data from CSV files:
+
+sf sfdmu run --sourceusername csvfile --targetusername developer2
+
+Use this command to export data into CSV files:
+
+sf sfdmu run --sourceusername developer2 --targetusername csvfile
+
+sf org list sobject record-counts
+
+[sfdx-hardis] You can connect to your scratch using username alain.cabon@hardis-scratch-alain-_20250422_0843.com and password ypdAdan5ct&fj
